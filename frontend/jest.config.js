@@ -3,5 +3,7 @@ module.exports = {
   transform: {
     '^.+\\.vue$': 'vue-jest'
   },
+  verbose: true,
+
   testResultsProcessor: './node_modules/jest-junit-reporter'
 }

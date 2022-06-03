@@ -1,6 +1,6 @@
 <template>
   <div>
-    <MessageDisplay />
+    // show `MessageDisplay` component here
   </div>
 </template>
 

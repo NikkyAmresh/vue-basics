@@ -1,6 +1,7 @@
 <template>
   <div class="app-header">
-    <button v-show="loggedIn">Logout</button>
+    // show the button that only if value of variable `loggedIn` is true
+    <button>Logout</button>
   </div>
 </template>
 

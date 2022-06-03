@@ -6,19 +6,19 @@
 </template>
 <script>
 export default {
+  // set default value for min,max in props should be 1, 10 respectively.
+  // and randomNumber should be 0
   props: {
     min: {
-      type: Number,
-      default: 1
+      type: Number
     },
     max: {
-      type: Number,
-      default: 10
+      type: Number
     }
   },
   data() {
     return {
-      randomNumber: 0
+      randomNumber: 100
     }
   },
   methods: {
