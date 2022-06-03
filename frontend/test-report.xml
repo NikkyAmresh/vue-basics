@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="/Users/nikkyamresh/files/frontendVue/frontend/tests/unit/AppHeader.spec.js" errors="0" package="/Users/nikkyamresh/files/frontendVue/frontend/tests/unit/AppHeader.spec.js" hostname="localhost" tests="2" failures="0" time="0.488" timestamp="2022-06-03T10:07:38">
+    <properties>
+    </properties>
+    <testcase classname="AppHeader" name="if user is not logged in, do not show logout button" time="0">
+    </testcase>
+    <testcase classname="AppHeader" name="if logged in, show logout button" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="/Users/nikkyamresh/files/frontendVue/frontend/tests/unit/MessageDisplay.spec.js" errors="0" package="/Users/nikkyamresh/files/frontendVue/frontend/tests/unit/MessageDisplay.spec.js" hostname="localhost" tests="2" failures="0" time="0.108" timestamp="2022-06-03T10:07:39">
+    <properties>
+    </properties>
+    <testcase classname="MessageDisplay" name="Calls getMessage once and displays message" time="0">
+    </testcase>
+    <testcase classname="MessageDisplay" name="Displays an error when getMessage call fails" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="/Users/nikkyamresh/files/frontendVue/frontend/tests/unit/RandomNumber.spec.js" errors="0" package="/Users/nikkyamresh/files/frontendVue/frontend/tests/unit/RandomNumber.spec.js" hostname="localhost" tests="3" failures="0" time="0.046" timestamp="2022-06-03T10:07:39">
+    <properties>
+    </properties>
+    <testcase classname="RandomNumber" name="By default, randomNumber data value should be 0" time="0">
+    </testcase>
+    <testcase classname="RandomNumber" name="If button is clicked, randomNumber should be between 1 and 10" time="0">
+    </testcase>
+    <testcase classname="RandomNumber" name="If button is clicked, randomNumber should be between 200 and 300" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="/Users/nikkyamresh/files/frontendVue/frontend/tests/unit/MessageContainer.spec.js" errors="0" package="/Users/nikkyamresh/files/frontendVue/frontend/tests/unit/MessageContainer.spec.js" hostname="localhost" tests="1" failures="0" time="0.042" timestamp="2022-06-03T10:07:39">
+    <properties>
+    </properties>
+    <testcase classname="MessageContainer" name="Wraps MessageDisplay component" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="/Users/nikkyamresh/files/frontendVue/frontend/tests/unit/LoginForm.spec.js" errors="0" package="/Users/nikkyamresh/files/frontendVue/frontend/tests/unit/LoginForm.spec.js" hostname="localhost" tests="1" failures="0" time="0.035" timestamp="2022-06-03T10:07:39">
+    <properties>
+    </properties>
+    <testcase classname="LoginForm" name="emits an event with user data payload" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
