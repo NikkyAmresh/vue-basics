@@ -5,11 +5,6 @@
 </template>
 
 <script>
-import MessageDisplay from '@/components/MessageDisplay'
-
-export default {
-  components: {
-    MessageDisplay
-  }
-}
+// import the template `MessageDisplay` and display it correctly
+export default {}
 </script>

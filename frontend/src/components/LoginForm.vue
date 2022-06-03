@@ -12,12 +12,10 @@ export default {
       name: ''
     }
   },
-  emits: [
-    'formSubmitted'
-  ],
+  emits: ['formSubmitted'],
   methods: {
     onSubmit() {
-      this.$emit('formSubmitted', { name: this.name })
+      // on submit an event should be emitted as 'formSubmitted' with data as {name:this.name}
     }
   }
 }

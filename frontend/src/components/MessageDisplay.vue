@@ -15,7 +15,7 @@ export default {
   },
   async created() {
     try {
-      this.message = await getMessage()
+      // fetch the messages by using `getMessage` service and store it in variable `this.message`
     } catch (err) {
       this.error = 'Oops! Something went wrong.'
     }

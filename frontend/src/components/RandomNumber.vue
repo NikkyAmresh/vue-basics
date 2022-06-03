@@ -23,8 +23,7 @@ export default {
   },
   methods: {
     getRandomNumber() {
-      this.randomNumber =
-        Math.floor(Math.random() * (this.max - this.min + 1)) + this.min
+      // generate a random number between this.min and this.max and store it in `this.randomNumber`
     }
   }
 }

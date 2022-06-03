@@ -6,11 +6,7 @@
 
 <script>
 export default {
-  data() {
-    return {
-      loggedIn: false
-    }
-  }
+  // write a code where component returns the default value for variable `loggedIn` as `false`
 }
 </script>
 
